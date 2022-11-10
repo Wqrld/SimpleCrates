@@ -1,0 +1,9 @@
+name: Simplecrates
+version: ${project.version}
+main: net.wqrld.simplecrates.Simplecrates
+api-version: 1.13
+commands:
+  key:
+    description: Get a key
+    usage: /key <keyID>
+    permission: simpleCrates.key
